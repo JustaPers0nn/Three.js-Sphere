@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x:hidden ;
+}
+
+html{
+    overflow-x:hidden ;
+  font-family: "Noto Sans", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.webgl{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+nav{
+    display: flex;
+    color: white;
+    z-index: 2;
+    position: relative;
+    padding: 4rem 8rem;
+    justify-content: space-between;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 4rem;
+}
+.title{
+    color: white;
+    z-index: 2;
+    position: absolute;
+    font-size: 2.5rem;
+    left: 50%;
+    top: 20%;
+    transform: translate(-50%, -25%);
+
+}
